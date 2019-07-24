@@ -3,6 +3,10 @@
   "description": "Magento 2 Module - Add stock qty to product view page for Simple and Configurable products",
   "type": "magento2-module",
   "version": "1.0.0",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.1",
+  },
   "authors": [
     {
       "name": "Iain Ballantyne"
@@ -13,7 +17,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "IainBallantyne\\QuickAdd\\": ""
+      "IainBallantyne\\ShowStock\\": ""
     }
   }
 }
